@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riwaayat Events & Weddings | Luxury Wedding & Event Management</title>
+  <meta name="description" content="Riwaayat Events & Weddings is a premier luxury wedding and event planning company offering turnkey wedding planning, royal mandap decoration, haldi-mehndi styling, sangeet production, and gourmet catering.">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23C5A059'/><polygon points='50,20 62,38 84,38 67,52 73,74 50,60 27,74 33,52 16,38 38,38' fill='%23FFFFFF'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-item">
+        <i class="fa-solid fa-phone-volume"></i>
+        <span>Connect With Us: <strong>+91 (0) 98765 43210</strong></span>
+      </div>
+      <div class="top-bar-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Udaipur &bull; Jaipur &bull; Mumbai &bull; Goa &bull; Delhi</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+        <div class="brand-text">
+          <span class="brand-name">RIWAAYAT</span>
+          <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="packages.html" class="nav-link">Packages</a>
+        <a href="events.html" class="nav-link">Our Events</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta-wrap">
+        <a href="contact.html#quote" class="btn-pill btn-primary">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Book Your Event</span>
+        </a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="mobile-nav-drawer" id="mobileDrawer">
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+        <a href="index.html" class="brand-logo mobile-brand">
+          <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+          <div class="brand-text">
+            <span class="brand-name">RIWAAYAT</span>
+            <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+          </div>
+        </a>
+        <button class="mobile-drawer-close" style="font-size: 1.6rem; color: var(--text-main);" aria-label="Close menu">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="about.html" class="mobile-nav-link">About Us <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="services.html" class="mobile-nav-link">Our Services <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="packages.html" class="mobile-nav-link">Curated Packages <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="events.html" class="mobile-nav-link">Celebration Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="gallery.html" class="mobile-nav-link">Story Gallery &amp; Films <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="contact.html" class="mobile-nav-link">Contact &amp; Quote <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div style="margin-top: 30px;">
+      <a href="contact.html#quote" class="btn-pill btn-primary" style="width: 100%; margin-bottom: 12px;">
+        <i class="fa-solid fa-calendar-check"></i> Book Your Event
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION WITH VIDEO BACKGROUND -->
+    <section class="hero-section" id="home">
+      <div class="hero-video-container">
+        <video autoplay muted loop playsinline preload="metadata" class="hero-video-bg" id="heroVideo">
+          <source src="videos/hero-wedding.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+
+        <h1 class="hero-headline">
+          Creating Moments.<br>
+          <span class="gold-text">Crafting Memories.</span>
+        </h1>
+
+        <p class="hero-subheading">
+          Bespoke luxury wedding planning &amp; decor for unforgettable celebrations.
+        </p>
+
+        <div class="hero-actions">
+          <a href="contact.html#quote" class="btn-pill btn-gold">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>Plan Your Event</span>
+          </a>
+          <a href="gallery.html" class="btn-pill btn-outline-gold">
+            <i class="fa-solid fa-images"></i>
+            <span>Explore Our Work</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="curve-divider curve-bottom">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0 C150,90 400,120 600,60 C800,0 1050,90 1200,40 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ABOUT TEASER SECTION -->
+    <section class="section-padding about-section" id="about-teaser">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-column">
+            <div class="about-image-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1000&q=80" 
+                alt="Royal Indian Bride" 
+                class="about-main-img"
+              >
+            </div>
+          </div>
+
+          <div class="about-content-column">
+            <h2 class="section-title">Turning Your Vision Into a Celebration</h2>
+            
+            <p class="about-lead">
+              Every love story is unique, and your wedding deserves to be an exquisite, unrepeatable masterpiece.
+            </p>
+            
+            <p class="about-desc">
+              At <strong>Riwaayat Events & Weddings</strong>, we manage the entire wedding lifecycle from concept to execution. With over a decade of mastery across India's premier palaces, beaches, and luxury ballrooms, our team turns logistical complexity into effortless grandeur.
+            </p>
+
+            <div class="about-highlights">
+              <div class="about-highlight-card">
+                <div class="highlight-icon-box"><i class="fa-solid fa-users-gear"></i></div>
+                <div class="highlight-info">
+                  <h4>Experienced Team</h4>
+                  <p>In-house architects, floral designers, sound engineers, and hospitality concierges.</p>
+                </div>
+              </div>
+
+              <div class="about-highlight-card">
+                <div class="highlight-icon-box"><i class="fa-solid fa-compass-drafting"></i></div>
+                <div class="highlight-info">
+                  <h4>Personalized Planning</h4>
+                  <p>Tailored thematic designs reflecting your family traditions, culinary tastes, and style.</p>
+                </div>
+              </div>
+
+              <div class="about-highlight-card">
+                <div class="highlight-icon-box"><i class="fa-solid fa-shield-heart"></i></div>
+                <div class="highlight-info">
+                  <h4>Complete Event Management</h4>
+                  <p>Zero stress for you and your family with our 360-degree on-ground execution guarantee.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Trust Stats: Placed Directly Below Complete Event Management -->
+            <div class="about-trust-stats">
+              <div class="about-stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+                <div class="stat-content">
+                  <div class="stat-num">500+</div>
+                  <div class="stat-label">Events Celebrated</div>
+                </div>
+              </div>
+
+              <div class="about-stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="stat-content">
+                  <div class="stat-num">10+</div>
+                  <div class="stat-label">Years of Mastery</div>
+                </div>
+              </div>
+
+              <div class="about-stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+                <div class="stat-content">
+                  <div class="stat-num">100%</div>
+                  <div class="stat-label">Dedicated Service</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a href="about.html" class="btn-pill btn-gold">
+                <span>Read Full Story</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="services.html" class="btn-pill btn-outline-gold">
+                <span>Explore Services</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES TEASER SECTION -->
+    <section class="section-padding services-section" id="services-teaser">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Our Wedding &amp; Event Services</h2>
+          <p class="section-subtitle">
+            From regal mandaps and aromatic haldi flowers to concert-grade sangeet nights, we orchestrate all 12 facets of your celebration.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Wedding Planning -->
+          <div class="service-card card-theme-gold">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Wedding Planning" class="service-card-img" loading="lazy">
+              <div class="service-icon-wrap" style="color: var(--gold-dark);"><i class="fa-solid fa-chess-queen"></i></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-name">Wedding Planning</h3>
+              <p class="service-desc">Complete timeline coordination, vendor curation, budgeting, permissions, and bridal concierge.</p>
+              <a href="services.html#planning" class="service-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- 2. Venue Decoration -->
+          <div class="service-card card-theme-peach">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=600&q=80" alt="Venue Decoration" class="service-card-img" loading="lazy">
+              <div class="service-icon-wrap" style="color: var(--coral-muted);"><i class="fa-solid fa-archway"></i></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-name">Venue Decoration</h3>
+              <p class="service-desc">Breathtaking entryways, grand canopies, fabric drapes, bespoke furniture, and fresh exotic florals.</p>
+              <a href="services.html#decor" class="service-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- 3. Mandap & Stage Decor -->
+          <div class="service-card card-theme-blush">
+            <div class="service-img-wrap">
+              <img src="images/mandap-decor.jpg" alt="Royal Wedding Mandap &amp; Stage Decor" class="service-card-img" loading="lazy">
+              <div class="service-icon-wrap" style="color: var(--rose-accent);"><i class="fa-solid fa-synagogue"></i></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-name">Mandap &amp; Stage Decor</h3>
+              <p class="service-desc">Sacred Vedic mandaps, floral domes, floating stages, crystal chandeliers, and traditional royal motifs.</p>
+              <a href="services.html#mandap" class="service-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- 4. Mehndi & Haldi Setup -->
+          <div class="service-card card-theme-gold">
+            <div class="service-img-wrap">
+              <img src="images/haldi-mehndi-decor.jpg" alt="Mehndi &amp; Haldi Setup" class="service-card-img" loading="lazy">
+              <div class="service-icon-wrap" style="color: #E2A03F;"><i class="fa-solid fa-sun"></i></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-name">Mehndi &amp; Haldi Setup</h3>
+              <p class="service-desc">Vibrant marigold waterfalls, Bohemian jhoolas, colorful umbrellas, brass urlis, and photobooth corners.</p>
+              <a href="services.html#haldi" class="service-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- 5. Sangeet & Entertainment -->
+          <div class="service-card card-theme-lavender">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" alt="Sangeet & Entertainment" class="service-card-img" loading="lazy">
+              <div class="service-icon-wrap" style="color: var(--lavender-accent);"><i class="fa-solid fa-microphone-lines"></i></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-name">Sangeet &amp; Entertainment</h3>
+              <p class="service-desc">Celebrity artists, Bollywood choreographers, live Sufi bands, anchoring, fireworks, and LED productions.</p>
+              <a href="services.html#sangeet" class="service-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- 6. Catering & Royal Feasts -->
+          <div class="service-card card-theme-sage">
+            <div class="service-img-wrap">
+              <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=600&q=80" alt="Catering & Royal Feasts" class="service-card-img" loading="lazy">
+              <div class="service-icon-wrap" style="color: var(--sage-accent);"><i class="fa-solid fa-utensils"></i></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-name">Catering &amp; Royal Feasts</h3>
+              <p class="service-desc">Multi-cuisine delicacies, live chef stations, artisanal desserts, bespoke mocktails, and silver-thali hospitality.</p>
+              <a href="services.html#catering" class="service-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 50px;">
+          <a href="services.html" class="btn-pill btn-gold">
+            <span>Explore All Services</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="curve-divider curve-bottom">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0 C150,90 400,120 600,60 C800,0 1050,90 1200,40 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- PACKAGES TEASER SECTION -->
+    <section class="section-padding packages-section" id="packages-teaser">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Wedding Packages</h2>
+          <p class="section-subtitle">
+            Transparent, all-inclusive celebration packages crafted for grand palace weddings, vibrant celebrations, and intimate luxury gatherings.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+          <div class="package-card">
+            <div class="package-header">
+              <h3 class="package-name">Silver Elegance</h3>
+              <div class="package-price">Starting from &#8377;1,50,000</div>
+              <div class="package-price-sub">+ Applicable taxes &amp; venue fees</div>
+              <p class="package-desc">Ideal for intimate weddings and single-day celebrations with elegant floral touches.</p>
+            </div>
+            <ul class="package-features">
+              <li><i class="fa-solid fa-circle-check"></i> Complete day-of coordination</li>
+              <li><i class="fa-solid fa-circle-check"></i> Floral mandap &amp; stage background</li>
+              <li><i class="fa-solid fa-circle-check"></i> Entrance archway &amp; welcome signs</li>
+              <li><i class="fa-solid fa-circle-check"></i> Ambient fairy lighting &amp; basic sound</li>
+            </ul>
+            <div class="package-footer">
+              <a href="packages.html" class="btn-pill btn-outline-gold">View Inclusions <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="package-card package-featured">
+            <div class="package-ribbon">Most Popular Choice</div>
+            <div class="package-header">
+              <h3 class="package-name">Gold Grandeur</h3>
+              <div class="package-price">Starting from &#8377;3,50,000</div>
+              <div class="package-price-sub">+ Comprehensive 2-3 Day Celebrations</div>
+              <p class="package-desc">Our flagship experience covering Haldi, Mehndi, Sangeet night, and grand wedding ceremonies.</p>
+            </div>
+            <ul class="package-features">
+              <li><i class="fa-solid fa-circle-check"></i> <strong>Everything in Silver, plus:</strong></li>
+              <li><i class="fa-solid fa-circle-check"></i> Multi-event management (Haldi, Mehndi, Sangeet, Wedding)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Bespoke royal floral mandap with exotic blooms</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dynamic LED stage &amp; concert-grade audio</li>
+              <li><i class="fa-solid fa-circle-check"></i> 8 on-ground planners &amp; hospitality desk</li>
+            </ul>
+            <div class="package-footer">
+              <a href="packages.html" class="btn-pill btn-gold"><i class="fa-solid fa-sparkles"></i> View Inclusions</a>
+            </div>
+          </div>
+
+          <div class="package-card">
+            <div class="package-header">
+              <h3 class="package-name">Royal Luxury</h3>
+              <div class="package-price">Starting from &#8377;7,50,000</div>
+              <div class="package-price-sub">+ Elite Destination Weddings</div>
+              <p class="package-desc">The ultimate turnkey royal extravaganza for palace destination weddings and celebrity celebrations.</p>
+            </div>
+            <ul class="package-features">
+              <li><i class="fa-solid fa-circle-check"></i> <strong>Everything in Gold, plus:</strong></li>
+              <li><i class="fa-solid fa-circle-check"></i> Full Destination Wedding management</li>
+              <li><i class="fa-solid fa-circle-check"></i> Architectural 3D mapping &amp; custom sets</li>
+              <li><i class="fa-solid fa-circle-check"></i> Celebrity artists &amp; airport VIP fleet</li>
+            </ul>
+            <div class="package-footer">
+              <a href="packages.html" class="btn-pill btn-outline-gold">View Inclusions <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 36px;">
+          <a href="packages.html" class="btn-pill btn-gold">
+            <span>Explore All Packages</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO TEASER -->
+    <section class="section-padding events-section" id="events-teaser">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Event Highlights</h2>
+          <p class="section-subtitle">
+            From auspicious Vedic vows to high-octane corporate galas, we bring elegance and flair to every occasion.
+          </p>
+        </div>
+
+        <div class="events-grid">
+          <div class="event-category-card" onclick="location.href='events.html'">
+            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80" alt="Wedding" class="event-category-img">
+            <div class="event-category-overlay">
+              <h3 class="event-category-title">Royal Wedding</h3>
+              <div class="event-category-meta"><i class="fa-solid fa-heart"></i> Sacred Vows &amp; Mandap</div>
+            </div>
+          </div>
+
+          <div class="event-category-card" onclick="location.href='events.html'">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80" alt="Reception" class="event-category-img">
+            <div class="event-category-overlay">
+              <h3 class="event-category-title">Grand Reception</h3>
+              <div class="event-category-meta"><i class="fa-solid fa-champagne-glasses"></i> Gala Banquets &amp; Toasts</div>
+            </div>
+          </div>
+
+          <div class="event-category-card" onclick="location.href='events.html'">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Sangeet" class="event-category-img">
+            <div class="event-category-overlay">
+              <h3 class="event-category-title">Sangeet Night</h3>
+              <div class="event-category-meta"><i class="fa-solid fa-music"></i> Dance, Lights &amp; Beats</div>
+            </div>
+          </div>
+
+          <div class="event-category-card" onclick="location.href='events.html'">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80" alt="Destination Wedding" class="event-category-img">
+            <div class="event-category-overlay">
+              <h3 class="event-category-title">Destination Weddings</h3>
+              <div class="event-category-meta"><i class="fa-solid fa-plane-departure"></i> Palaces, Forts &amp; Beaches</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 40px;">
+          <a href="events.html" class="btn-pill btn-gold">
+            <span>Explore All Celebrations</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION BANNER -->
+    <section class="section-padding cta-banner-section" style="background: linear-gradient(135deg, var(--bg-peach) 0%, var(--bg-blush) 100%);">
+      <div class="container text-center">
+        <span class="section-tag gold-tag">Begin Your Journey</span>
+        <h2 class="section-title" style="margin-bottom: 20px;">Ready to Plan Your Perfect Celebration?</h2>
+        <p class="section-subtitle" style="margin-bottom: 35px;">
+          Schedule your complimentary design consultation with our senior wedding architects or connect with us directly on WhatsApp.
+        </p>
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="btn-pill btn-primary">
+            <i class="fa-solid fa-calendar-check"></i> Request a Customized Quote
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="curve-divider curve-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C300,80 600,0 900,70 L1200,20 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+      </svg>
+    </div>
+
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo">
+        <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+        <div class="brand-text">
+          <span class="brand-name">RIWAAYAT</span>
+          <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+        </div>
+      </a>
+        <p>"Creating beautiful celebrations, one unforgettable moment at a time."</p>
+        <p style="font-size: 0.88rem; color: rgba(255, 255, 255, 0.65);">
+          India's leading luxury wedding planning &amp; event production agency specializing in bespoke destination weddings across Rajasthan, Goa, and world-class luxury ballrooms.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore Pages</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Our Services</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-angle-right"></i> Curated Packages</a></li>
+          <li><a href="events.html"><i class="fa-solid fa-angle-right"></i> Celebration Portfolio</a></li>
+          <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Event Gallery</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Studio</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Signature Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Royal Mandap Decor</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Sangeet Production</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Haldi &amp; Mehndi Setup</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Destination Weddings</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Gourmet Catering</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> 4K Wedding Cinema</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-newsletter">
+        <h4>Wedding Inspiration</h4>
+        <p>Subscribe for our annual wedding trend forecasts, palatial venue guides, and styling inspirations.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter">
+          <button type="submit" class="btn-pill btn-primary"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div style="margin-top: 24px;">
+          <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp" style="width: 100%; font-size: 0.9rem;">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Riwaayat Events & Weddings. All Rights Reserved. Crafted with elegance and devotion for unforgettable celebrations.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Actions -->
+  <div class="floating-actions">
+    <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="float-whatsapp-btn" title="Chat with us on WhatsApp" aria-label="WhatsApp Chat">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <button class="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-chevron-up"></i></button>
+  </div>
+
+  <div class="toast-notice" id="toastNotice">
+    <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast-text">
+      <h5 class="toast-title">Success</h5>
+      <p class="toast-desc">Message received.</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

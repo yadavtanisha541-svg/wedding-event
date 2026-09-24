@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Packages | Riwaayat Events & Weddings - Transparent Luxury Pricing</title>
+  <meta name="description" content="Browse transparent luxury wedding packages by Riwaayat Events & Weddings: Silver Elegance, Gold Grandeur (Featured), and Royal Luxury Destination Packages with full inclusions.">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23C5A059'/><polygon points='50,20 62,38 84,38 67,52 73,74 50,60 27,74 33,52 16,38 38,38' fill='%23FFFFFF'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .comparison-table-wrap {
+      background: var(--bg-white);
+      border-radius: var(--radius-xl);
+      padding: 40px;
+      box-shadow: var(--shadow-luxury);
+      border: 1.5px solid var(--border-gold);
+      overflow-x: auto;
+      margin-top: 40px;
+    }
+    .comp-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    .comp-table th, .comp-table td {
+      padding: 18px 20px;
+      border-bottom: 1px solid rgba(197, 160, 89, 0.15);
+      font-size: 0.95rem;
+    }
+    .comp-table th {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      color: var(--text-main);
+      background: var(--bg-peach-light);
+    }
+    .comp-table th:first-child {
+      border-top-left-radius: var(--radius-md);
+      border-bottom-left-radius: var(--radius-md);
+    }
+    .comp-table th:last-child {
+      border-top-right-radius: var(--radius-md);
+      border-bottom-right-radius: var(--radius-md);
+    }
+    .comp-table td.highlight-col {
+      background: rgba(248, 243, 234, 0.5);
+      font-weight: 600;
+    }
+    .comp-check { color: var(--sage-accent); font-size: 1.1rem; }
+    .comp-cross { color: #CCC; font-size: 1.1rem; }
+    .table-scroll-hint {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .comparison-table-wrap {
+        padding: 16px 8px 18px !important;
+        border-radius: 14px !important;
+        margin-top: 24px !important;
+        -webkit-overflow-scrolling: touch !important;
+      }
+      .comparison-table-wrap h3 {
+        font-size: 1.2rem !important;
+        margin-bottom: 8px !important;
+      }
+      .table-scroll-hint {
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+        font-size: 0.68rem !important;
+        color: var(--coral-muted) !important;
+        background: var(--bg-peach-light) !important;
+        padding: 4px 10px !important;
+        border-radius: var(--radius-pill) !important;
+        margin-bottom: 10px !important;
+        border: 1px solid rgba(224, 122, 95, 0.2) !important;
+      }
+      .comp-table {
+        min-width: 480px !important;
+      }
+      .comp-table th, .comp-table td {
+        padding: 8px 8px !important;
+        font-size: 0.72rem !important;
+        line-height: 1.25 !important;
+      }
+      .comp-table th {
+        font-size: 0.76rem !important;
+      }
+      .comp-table th:first-child,
+      .comp-table td:first-child {
+        position: sticky !important;
+        left: 0 !important;
+        z-index: 2 !important;
+        background: #FFFFFF !important;
+        box-shadow: 2px 0 6px rgba(0,0,0,0.06) !important;
+        font-weight: 600 !important;
+        max-width: 120px !important;
+      }
+      .comp-table th:first-child {
+        background: #FFEFE8 !important;
+      }
+      .comp-check { font-size: 0.85rem !important; }
+      .comp-cross { font-size: 0.85rem !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-item">
+        <i class="fa-solid fa-phone-volume"></i>
+        <span>Connect With Us: <strong>+91 (0) 98765 43210</strong></span>
+      </div>
+      <div class="top-bar-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Udaipur &bull; Jaipur &bull; Mumbai &bull; Goa &bull; Delhi</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+        <div class="brand-text">
+          <span class="brand-name">RIWAAYAT</span>
+          <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="packages.html" class="nav-link active">Packages</a>
+        <a href="events.html" class="nav-link">Our Events</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta-wrap">
+        <a href="contact.html#quote" class="btn-pill btn-primary">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Book Your Event</span>
+        </a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="mobile-nav-drawer" id="mobileDrawer">
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+        <a href="index.html" class="brand-logo mobile-brand">
+          <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+          <div class="brand-text">
+            <span class="brand-name">RIWAAYAT</span>
+            <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+          </div>
+        </a>
+        <button class="mobile-drawer-close" style="font-size: 1.6rem; color: var(--text-main);" aria-label="Close menu">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="about.html" class="mobile-nav-link">About Us <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="services.html" class="mobile-nav-link">Our Services <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="packages.html" class="mobile-nav-link">Curated Packages <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="events.html" class="mobile-nav-link">Celebration Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="gallery.html" class="mobile-nav-link">Story Gallery &amp; Films <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="contact.html" class="mobile-nav-link">Contact &amp; Quote <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div style="margin-top: 30px;">
+      <a href="contact.html#quote" class="btn-pill btn-primary" style="width: 100%; margin-bottom: 12px;">
+        <i class="fa-solid fa-calendar-check"></i> Book Your Event
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1920&q=80');">
+      <div class="page-hero-overlay"></div>
+      <div class="page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">&gt;</span>
+          <span class="current">Curated Packages</span>
+        </div>
+        <h1 class="page-hero-title">Wedding &amp; Celebration Packages</h1>
+        <p class="page-hero-sub">
+          Transparent, luxury packages crafted for intimate gatherings, multi-day celebrations, and grand destination weddings.
+        </p>
+      </div>
+      <div class="curve-divider curve-bottom">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0 C150,90 400,120 600,60 C800,0 1050,90 1200,40 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- 3 PACKAGES GRID -->
+    <section class="section-padding packages-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Investment Guide</span>
+          <h2 class="section-title">Wedding Packages</h2>
+          <p class="section-subtitle">
+            Every package is fully customizable. Use these tiers as foundational starting points for your special day.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+          <!-- Silver Package -->
+          <div class="package-card">
+            <div class="package-header">
+              <h3 class="package-name">Silver Elegance</h3>
+              <div class="package-price">Starting from &#8377;1,50,000</div>
+              <div class="package-price-sub">+ Applicable taxes &amp; venue fees</div>
+              <p class="package-desc">
+                Ideal for intimate weddings, ring ceremonies, or single-day celebrations with elegant floral touches.
+              </p>
+            </div>
+
+            <ul class="package-features">
+              <li><i class="fa-solid fa-circle-check"></i> Complete day-of wedding coordination</li>
+              <li><i class="fa-solid fa-circle-check"></i> Floral mandap &amp; stage background decor</li>
+              <li><i class="fa-solid fa-circle-check"></i> Entrance archway &amp; custom welcome signage</li>
+              <li><i class="fa-solid fa-circle-check"></i> Ambient fairy lighting &amp; basic sound setup</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dedicated couple coordinator on-site</li>
+              <li><i class="fa-solid fa-circle-check"></i> Vendor coordination &amp; schedule management</li>
+              <li><i class="fa-solid fa-circle-check"></i> Standard guest seating styling</li>
+            </ul>
+
+            <div class="package-footer">
+              <a href="contact.html?package=silver" class="btn-pill btn-outline-gold">
+                <span>Get a Quote</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Gold Package (Featured) -->
+          <div class="package-card package-featured">
+            <div class="package-ribbon">Most Popular Choice</div>
+            <div class="package-header">
+              <h3 class="package-name">Gold Grandeur</h3>
+              <div class="package-price">Starting from &#8377;3,50,000</div>
+              <div class="package-price-sub">+ Comprehensive 2-3 Day Celebrations</div>
+              <p class="package-desc">
+                Our flagship experience covering Haldi, Mehndi, Sangeet night, and grand wedding ceremonies.
+              </p>
+            </div>
+
+            <ul class="package-features">
+              <li><i class="fa-solid fa-circle-check"></i> <strong>Everything in Silver, plus:</strong></li>
+              <li><i class="fa-solid fa-circle-check"></i> Multi-event management (Haldi, Mehndi, Sangeet, Wedding)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Bespoke royal floral mandap with fresh exotic blooms</li>
+              <li><i class="fa-solid fa-circle-check"></i> Dynamic LED stage &amp; concert-grade sound for Sangeet</li>
+              <li><i class="fa-solid fa-circle-check"></i> Interactive photobooths &amp; themed guest seating</li>
+              <li><i class="fa-solid fa-circle-check"></i> Specialized Baraat brass band &amp; cold-pyro entry</li>
+              <li><i class="fa-solid fa-circle-check"></i> 8 on-ground wedding planners &amp; hospitality desk</li>
+              <li><i class="fa-solid fa-circle-check"></i> Full 3D venue layout &amp; moodboard visualization</li>
+            </ul>
+
+            <div class="package-footer">
+              <a href="contact.html?package=gold" class="btn-pill btn-gold">
+                <i class="fa-solid fa-sparkles"></i>
+                <span>Get Gold Quote</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Luxury Royal Package -->
+          <div class="package-card">
+            <div class="package-header">
+              <h3 class="package-name">Royal Luxury</h3>
+              <div class="package-price">Starting from &#8377;7,50,000</div>
+              <div class="package-price-sub">+ Elite Destination Weddings</div>
+              <p class="package-desc">
+                The ultimate turnkey royal extravaganza for palace destination weddings and celebrity celebrations.
+              </p>
+            </div>
+
+            <ul class="package-features">
+              <li><i class="fa-solid fa-circle-check"></i> <strong>Everything in Gold, plus:</strong></li>
+              <li><i class="fa-solid fa-circle-check"></i> End-to-end Destination Wedding management</li>
+              <li><i class="fa-solid fa-circle-check"></i> Architectural 3D venue mapping &amp; custom sets</li>
+              <li><i class="fa-solid fa-circle-check"></i> Celebrity artist &amp; choreographer coordination</li>
+              <li><i class="fa-solid fa-circle-check"></i> Luxury guest airport concierge &amp; VIP fleet logistics</li>
+              <li><i class="fa-solid fa-circle-check"></i> Master chef gourmet catering curation</li>
+              <li><i class="fa-solid fa-circle-check"></i> 24/7 dedicated senior event director &amp; full team</li>
+              <li><i class="fa-solid fa-circle-check"></i> Customized welcome gift boxes for all guest rooms</li>
+            </ul>
+
+            <div class="package-footer">
+              <a href="contact.html?package=luxury" class="btn-pill btn-outline-gold">
+                <span>Get Luxury Quote</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COMPREHENSIVE COMPARISON TABLE -->
+        <div class="comparison-table-wrap">
+          <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 12px; text-align: center; color: var(--text-main);">
+            Package Comparison Matrix
+          </h3>
+          <div style="text-align: center;">
+            <div class="table-scroll-hint">
+              <i class="fa-solid fa-arrows-left-right"></i> Scroll table to view all tiers
+            </div>
+          </div>
+          <table class="comp-table">
+            <thead>
+              <tr>
+                <th>Service Deliverable</th>
+                <th>Silver Elegance</th>
+                <th style="color: var(--gold-dark);">Gold Grandeur (Featured)</th>
+                <th>Royal Luxury</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Event Coverage</strong></td>
+                <td>1 Day (Wedding &amp; Reception)</td>
+                <td class="highlight-col">2 - 3 Days (Full Itinerary)</td>
+                <td>3 - 4 Days (Destination)</td>
+              </tr>
+              <tr>
+                <td><strong>Mandap Architecture</strong></td>
+                <td>Classic Floral Canopy</td>
+                <td class="highlight-col">Royal Handcrafted Vedic Mandap</td>
+                <td>Floating / Architectural Glass Mandap</td>
+              </tr>
+              <tr>
+                <td><strong>Sangeet Stage Production</strong></td>
+                <td><i class="fa-solid fa-xmark comp-cross"></i> Optional Add-on</td>
+                <td class="highlight-col"><i class="fa-solid fa-check comp-check"></i> Concert LED Wall &amp; Trussing</td>
+                <td><i class="fa-solid fa-check comp-check"></i> Festival Production &amp; Special FX</td>
+              </tr>
+              <tr>
+                <td><strong>Haldi &amp; Mehndi Styling</strong></td>
+                <td><i class="fa-solid fa-xmark comp-cross"></i> Optional Add-on</td>
+                <td class="highlight-col"><i class="fa-solid fa-check comp-check"></i> Yellow Blooms &amp; Jhoola Lounge</td>
+                <td><i class="fa-solid fa-check comp-check"></i> Custom Bohemian Carnival / Theme</td>
+              </tr>
+              <tr>
+                <td><strong>Dedicated Planners</strong></td>
+                <td>2 On-Ground Coordinators</td>
+                <td class="highlight-col">8 Dedicated Event Managers</td>
+                <td>15+ Full Concierge &amp; Senior Director</td>
+              </tr>
+              <tr>
+                <td><strong>Guest Airport Hospitality Desk</strong></td>
+                <td><i class="fa-solid fa-xmark comp-cross"></i></td>
+                <td class="highlight-col"><i class="fa-solid fa-check comp-check"></i> Hotel Welcome Desk</td>
+                <td><i class="fa-solid fa-check comp-check"></i> Airport VIP Desk &amp; Luxury Fleet</td>
+              </tr>
+              <tr>
+                <td><strong>3D Layouts &amp; Mood Boards</strong></td>
+                <td>Digital Color Palettes</td>
+                <td class="highlight-col"><i class="fa-solid fa-check comp-check"></i> 3D Mandap &amp; Stage Renders</td>
+                <td><i class="fa-solid fa-check comp-check"></i> Full 3D Spatial Walkthroughs</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="curve-divider curve-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C300,80 600,0 900,70 L1200,20 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+      </svg>
+    </div>
+
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo">
+        <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+        <div class="brand-text">
+          <span class="brand-name">RIWAAYAT</span>
+          <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+        </div>
+      </a>
+        <p>"Creating beautiful celebrations, one unforgettable moment at a time."</p>
+        <p style="font-size: 0.88rem; color: rgba(255, 255, 255, 0.65);">
+          India's leading luxury wedding planning &amp; event production agency specializing in bespoke destination weddings across Rajasthan, Goa, and world-class luxury ballrooms.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore Pages</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Our Services</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-angle-right"></i> Curated Packages</a></li>
+          <li><a href="events.html"><i class="fa-solid fa-angle-right"></i> Celebration Portfolio</a></li>
+          <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Event Gallery</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Studio</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Signature Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#mandap"><i class="fa-solid fa-angle-right"></i> Royal Mandap Decor</a></li>
+          <li><a href="services.html#sangeet"><i class="fa-solid fa-angle-right"></i> Sangeet Production</a></li>
+          <li><a href="services.html#haldi"><i class="fa-solid fa-angle-right"></i> Haldi &amp; Mehndi Setup</a></li>
+          <li><a href="services.html#planning"><i class="fa-solid fa-angle-right"></i> Destination Weddings</a></li>
+          <li><a href="services.html#catering"><i class="fa-solid fa-angle-right"></i> Gourmet Catering</a></li>
+          <li><a href="services.html#photo"><i class="fa-solid fa-angle-right"></i> 4K Wedding Cinema</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-newsletter">
+        <h4>Wedding Inspiration</h4>
+        <p>Subscribe for our annual wedding trend forecasts, palatial venue guides, and styling inspirations.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter">
+          <button type="submit" class="btn-pill btn-primary"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div style="margin-top: 24px;">
+          <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp" style="width: 100%; font-size: 0.9rem;">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Riwaayat Events & Weddings. All Rights Reserved. Crafted with elegance and devotion for unforgettable celebrations.</p>
+    </div>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="float-whatsapp-btn" title="Chat with us on WhatsApp" aria-label="WhatsApp Chat"><i class="fa-brands fa-whatsapp"></i></a>
+    <button class="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-chevron-up"></i></button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Gallery &amp; Films | Riwaayat Events & Weddings - Visual Journey</title>
+  <meta name="description" content="Explore our complete visual wedding story gallery and cinematic films: Venue Entrances, Haldi-Mehndi, Sangeet Stage, Royal Mandaps, and Palace Receptions.">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23C5A059'/><polygon points='50,20 62,38 84,38 67,52 73,74 50,60 27,74 33,52 16,38 38,38' fill='%23FFFFFF'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-item">
+        <i class="fa-solid fa-phone-volume"></i>
+        <span>Connect With Us: <strong>+91 (0) 98765 43210</strong></span>
+      </div>
+      <div class="top-bar-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Udaipur &bull; Jaipur &bull; Mumbai &bull; Goa &bull; Delhi</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+        <div class="brand-text">
+          <span class="brand-name">RIWAAYAT</span>
+          <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="packages.html" class="nav-link">Packages</a>
+        <a href="events.html" class="nav-link">Our Events</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta-wrap">
+        <a href="contact.html#quote" class="btn-pill btn-primary">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Book Your Event</span>
+        </a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="mobile-nav-drawer" id="mobileDrawer">
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+        <a href="index.html" class="brand-logo mobile-brand">
+          <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+          <div class="brand-text">
+            <span class="brand-name">RIWAAYAT</span>
+            <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+          </div>
+        </a>
+        <button class="mobile-drawer-close" style="font-size: 1.6rem; color: var(--text-main);" aria-label="Close menu">&times;</button>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="about.html" class="mobile-nav-link">About Us <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="services.html" class="mobile-nav-link">Our Services <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="packages.html" class="mobile-nav-link">Curated Packages <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="events.html" class="mobile-nav-link">Celebration Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="gallery.html" class="mobile-nav-link">Story Gallery &amp; Films <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="contact.html" class="mobile-nav-link">Contact &amp; Quote <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div style="margin-top: 30px;">
+      <a href="contact.html#quote" class="btn-pill btn-primary" style="width: 100%; margin-bottom: 12px;">
+        <i class="fa-solid fa-calendar-check"></i> Book Your Event
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80');">
+      <div class="page-hero-overlay"></div>
+      <div class="page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">&gt;</span>
+          <span class="current">Story Gallery</span>
+        </div>
+        <h1 class="page-hero-title">The Complete Wedding Story</h1>
+        <p class="page-hero-sub">
+          An authentic visual narrative chronologically arranged from grand arrival to the royal sparkler send-off.
+        </p>
+      </div>
+      <div class="curve-divider curve-bottom">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0 C150,90 400,120 600,60 C800,0 1050,90 1200,40 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="section-padding gallery-section">
+      <div class="container">
+        <!-- Filter Tabs -->
+        <div class="gallery-filters">
+          <button class="gallery-filter-btn active" data-filter="all">All Moments</button>
+          <button class="gallery-filter-btn" data-filter="decorations">Decorations</button>
+          <button class="gallery-filter-btn" data-filter="haldi">Haldi</button>
+          <button class="gallery-filter-btn" data-filter="mehndi">Mehndi</button>
+          <button class="gallery-filter-btn" data-filter="sangeet">Sangeet</button>
+          <button class="gallery-filter-btn" data-filter="wedding">Wedding</button>
+          <button class="gallery-filter-btn" data-filter="reception">Reception</button>
+          <button class="gallery-filter-btn" data-filter="catering">Catering</button>
+        </div>
+
+        <!-- Clean Equal Square Gallery Grid -->
+        <div class="gallery-grid">
+          <!-- ================= DECORATIONS (5 items) ================= -->
+          <div class="gallery-item" data-category="decorations">
+            <img src="images/decor-entrance.jpg" alt="Grand Floral Welcome Arch &amp; Pathway" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Entrance</span>
+              <h3 class="gallery-title">Grand Floral Welcome Arch &amp; Pathway</h3>
+              <p class="gallery-desc">Regal entranceway adorned with exotic fresh florals, brass urns, and welcoming rose petals.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="decorations">
+            <img src="images/decor-mandap.jpg" alt="Royal Vedic Mandap &amp; Stage Decor" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Mandap</span>
+              <h3 class="gallery-title">Royal Vedic Mandap &amp; Stage Decor</h3>
+              <p class="gallery-desc">Hand-carved pillars, floral dome, crystal chandeliers, and sacred royal havankund stage.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="decorations">
+            <img src="images/decor-marigold.jpg" alt="Traditional Marigold &amp; Ethnic Decor" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Marigold</span>
+              <h3 class="gallery-title">Marigold Jhoola &amp; Traditional Urli Decor</h3>
+              <p class="gallery-desc">Vibrant yellow marigold canopies, ethnic jhoola, and brass urlis with floating petals.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="decorations">
+            <img src="images/decor-canopy.jpg" alt="Fairy Light Canopy Decor" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Lighting</span>
+              <h3 class="gallery-title">Fairy Light Canopy &amp; Grand Ballroom Decor</h3>
+              <p class="gallery-desc">Enchanting starlit ceilings, ambient architectural uplighting, and luxury drape arrangements.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="decorations">
+            <img src="images/decor-table.jpg" alt="Royal Palace Table Decor" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Banquets</span>
+              <h3 class="gallery-title">Royal Floral Centerpieces &amp; Table Decor</h3>
+              <p class="gallery-desc">Bespoke glass candleholders, exotic rose arrangements, and fine golden cutlery settings.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- ================= HALDI (5 items) ================= -->
+          <div class="gallery-item" data-category="haldi">
+            <img src="images/haldi-flower-shower.jpg" alt="Joyful Flower Petal Shower &amp; Phoolon Ki Holi" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Haldi</span>
+              <h3 class="gallery-title">Joyful Flower Petal Shower &amp; Phoolon Ki Holi</h3>
+              <p class="gallery-desc">Sunlit marigold shower and cheerful yellow gulal celebrations with family and friends.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="haldi">
+            <img src="images/haldi-bride-ritual.jpg" alt="Radiant Bridal Haldi Ceremony" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Haldi</span>
+              <h3 class="gallery-title">Radiant Bridal Turmeric Ritual &amp; Floral Jewelry</h3>
+              <p class="gallery-desc">Traditional organic turmeric paste application with fresh marigold floral ornaments.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="haldi">
+            <img src="images/haldi-groom-fun.jpg" alt="Groom Haldi Urli Fun Celebration" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Haldi</span>
+              <h3 class="gallery-title">Groom Royal Urli Bath &amp; Fun Celebrations</h3>
+              <p class="gallery-desc">Celebratory brass urli bath with colorful sunglasses, photobooth props, and friend vibes.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="haldi">
+            <img src="images/haldi-attire.jpg" alt="Auspicious Turmeric Blessing Ceremony" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Haldi</span>
+              <h3 class="gallery-title">Auspicious Turmeric Blessing Ceremony</h3>
+              <p class="gallery-desc">Vedic hymns, elder blessings, and joyous celebratory moments surrounded by marigold blooms.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="haldi">
+            <img src="images/haldi-celebration.jpg" alt="Joyous Family Haldi Celebrations" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Haldi</span>
+              <h3 class="gallery-title">Joyous Family Haldi Celebrations</h3>
+              <p class="gallery-desc">Vibrant yellow attire, traditional songs, and heartwarming family memories.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- ================= MEHNDI (5 items) ================= -->
+          <div class="gallery-item" data-category="mehndi">
+            <img src="images/mehndi-bridal-hands.jpg" alt="Intricate Bridal Henna &amp; Royal Bangles" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Mehndi</span>
+              <h3 class="gallery-title">Intricate Bridal Henna &amp; Royal Bangles</h3>
+              <p class="gallery-desc">Exquisite dark henna designs covering palms and arms with traditional golden haathphool.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="mehndi">
+            <img src="images/mehndi-artist-apply.jpg" alt="Artisanal Bridal Mehndi Application" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Mehndi</span>
+              <h3 class="gallery-title">Artisanal Bridal Mehndi Application</h3>
+              <p class="gallery-desc">Master henna artists crafting intricate Rajasthani motifs and peacock patterns for the bride.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="mehndi">
+            <img src="images/mehndi-bridesmaids.jpg" alt="Joyful Bridesmaids Henna Celebrations" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Mehndi</span>
+              <h3 class="gallery-title">Joyful Bridesmaids Henna Celebrations</h3>
+              <p class="gallery-desc">Bride and bridesmaids in colorful pastel lehengas showing their intricate henna patterns.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="mehndi">
+            <img src="images/mehndi-ritual.jpg" alt="Traditional Henna Ceremony &amp; Floral Adornments" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Mehndi</span>
+              <h3 class="gallery-title">Traditional Henna Ceremony &amp; Adornments</h3>
+              <p class="gallery-desc">Festive music, floral jewelry, and radiant pre-wedding mehndi rituals.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="mehndi">
+            <img src="images/mehndi-boho-decor.jpg" alt="Bohemian Cabana Lounge &amp; Floral Rickshaw" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Mehndi</span>
+              <h3 class="gallery-title">Bohemian Cabana Lounge &amp; Mehndi Decor</h3>
+              <p class="gallery-desc">Vibrant pink and turquoise tented cabanas, low diwan seating, tassels, and photo corners.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- ================= SANGEET (5 items) ================= -->
+          <div class="gallery-item" data-category="sangeet">
+            <img src="images/sangeet-couple-dance.jpg" alt="Romantic Couple Dance &amp; Stage Performance" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Sangeet</span>
+              <h3 class="gallery-title">Romantic Couple Dance &amp; Stage Performance</h3>
+              <p class="gallery-desc">Illuminated dance floor, erupting golden sparklers, and romantic choreography moments.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sangeet">
+            <img src="images/sangeet-dhol-dance.jpg" alt="High-Energy Punjabi Dhol &amp; Dance Night" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Sangeet</span>
+              <h3 class="gallery-title">High-Energy Punjabi Dhol &amp; Dance Night</h3>
+              <p class="gallery-desc">Live energetic dhol beats, dynamic laser beams, and enthusiastic non-stop dancing.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sangeet">
+            <img src="images/sangeet-group-dance.jpg" alt="Bollywood Group Choreography &amp; Confetti" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Sangeet</span>
+              <h3 class="gallery-title">Bollywood Group Choreography &amp; Confetti</h3>
+              <p class="gallery-desc">Synchronized bridesmaids and groomsmen performance with flying golden confetti showers.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sangeet">
+            <img src="images/sangeet-stage-prod.jpg" alt="Concert Stage Lighting Rig &amp; Visuals" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Decor &bull; Sangeet</span>
+              <h3 class="gallery-title">Concert Stage Lighting Rig &amp; Visuals</h3>
+              <p class="gallery-desc">Massive curved LED video wall, aluminium concert trussing, moving laser beams, and DJ setup.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="sangeet">
+            <img src="images/sangeet-lights.jpg" alt="Grand Party Lights &amp; DJ Night Celebration" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Party &bull; Sangeet</span>
+              <h3 class="gallery-title">Grand Party Lights &amp; DJ Night Celebration</h3>
+              <p class="gallery-desc">Spectacular intelligent lighting, haze effects, and unforgettable dance party vibes.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- ================= WEDDING (5 items) ================= -->
+          <div class="gallery-item" data-category="wedding">
+            <img src="images/wedding-mandap-ceremony.jpg" alt="Royal Mandap &amp; Sacred Holy Fire" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Mandap</span>
+              <h3 class="gallery-title">Royal Mandap &amp; Sacred Holy Fire</h3>
+              <p class="gallery-desc">Sacred Vedic rituals, Vedic mantras, and divine blessings under the grand mandap canopy.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wedding">
+            <img src="images/wedding-varmala.jpg" alt="Royal Varmala &amp; Rose Petal Showers" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Varmala</span>
+              <h3 class="gallery-title">Royal Varmala &amp; Rose Petal Showers</h3>
+              <p class="gallery-desc">Regal garland exchange on illuminated palace stage with cold pyros and raining rose petals.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wedding">
+            <img src="images/wedding-rituals.jpg" alt="Sacred Vedic Wedding Rituals &amp; Garlands" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Rituals</span>
+              <h3 class="gallery-title">Sacred Vedic Wedding Rituals</h3>
+              <p class="gallery-desc">Timeless Indian traditions, Kanyadaan, and blissful marital vows surrounded by loved ones.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wedding">
+            <img src="images/wedding-palace.jpg" alt="Heritage Palace Destination Wedding" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Destination &bull; Wedding</span>
+              <h3 class="gallery-title">Heritage Palace Destination Wedding</h3>
+              <p class="gallery-desc">Majestic royal palace courtyard backdrop with grand arches, fountains, and royal grandeur.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wedding">
+            <img src="images/wedding-saat-phere.jpg" alt="Sacred Saat Phere &amp; Eternal Vows" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Pheras</span>
+              <h3 class="gallery-title">Sacred Saat Phere &amp; Eternal Vows</h3>
+              <p class="gallery-desc">Seven sacred vows around the holy fire with Vedic chants inside the handcrafted mandap.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- ================= RECEPTION (5 items) ================= -->
+          <div class="gallery-item" data-category="reception">
+            <img src="images/reception-palace.jpg" alt="Grand Ballroom Palace Gala Reception" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ceremony &bull; Reception</span>
+              <h3 class="gallery-title">Grand Ballroom Palace Gala Reception</h3>
+              <p class="gallery-desc">Grand ballroom banquet, champagne toasts, and live acoustic orchestra.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="reception">
+            <img src="images/reception-banquet.jpg" alt="Royal Banquet Dinner Table Setting" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Dining &bull; Reception</span>
+              <h3 class="gallery-title">Royal Banquet Dinner Table Setting</h3>
+              <p class="gallery-desc">Opulent banquet tables with crystal candelabras, fine china, and bespoke floral runners.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="reception">
+            <img src="images/reception-toast.jpg" alt="Champagne Toast &amp; Couple Celebration" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Celebration &bull; Reception</span>
+              <h3 class="gallery-title">Champagne Toast &amp; Couple Celebration</h3>
+              <p class="gallery-desc">Joyful toasts, heartwarming speeches, and celebratory drinks with family and friends.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="reception">
+            <img src="images/reception-stage.jpg" alt="Grand Reception Stage &amp; Couple Entry" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Stage &bull; Reception</span>
+              <h3 class="gallery-title">Grand Reception Stage &amp; Couple Entry</h3>
+              <p class="gallery-desc">Regal backdrop with cascading florals, velvet sofas, and glamorous red carpet entry.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="reception">
+            <img src="images/reception-lights.jpg" alt="Architectural Lighting &amp; Grand Ambiance" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Ambiance &bull; Reception</span>
+              <h3 class="gallery-title">Architectural Lighting &amp; Grand Ambiance</h3>
+              <p class="gallery-desc">Warm golden chandeliers, atmospheric uplighting, and fairy-lit garden pathways.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <!-- ================= CATERING (5 items) ================= -->
+          <div class="gallery-item" data-category="catering">
+            <img src="images/catering-buffet.jpg" alt="Gourmet Royal Banquet Catering &amp; Feasts" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Feast &bull; Catering</span>
+              <h3 class="gallery-title">Gourmet Royal Banquet Catering &amp; Feasts</h3>
+              <p class="gallery-desc">Artisanal live counters, regional royal delicacies, and exotic dessert spreads.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="catering">
+            <img src="images/catering-counters.jpg" alt="Artisanal Live Food Counters &amp; Delicacies" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Live Counters &bull; Catering</span>
+              <h3 class="gallery-title">Artisanal Live Food Counters &amp; Delicacies</h3>
+              <p class="gallery-desc">Interactive chaat stations, tandoori grills, wood-fired delicacies, and mocktail bars.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="catering">
+            <img src="images/catering-dining.jpg" alt="Royal Palace Dining Hall Service" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Dining &bull; Catering</span>
+              <h3 class="gallery-title">Royal Palace Dining Hall Service</h3>
+              <p class="gallery-desc">Silver thali service, royal traditional hospitality, and multi-course culinary masterclasses.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="catering">
+            <img src="images/catering-starters.jpg" alt="Exquisite Gourmet Starters &amp; Platters" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Starters &bull; Catering</span>
+              <h3 class="gallery-title">Exquisite Gourmet Starters &amp; Platters</h3>
+              <p class="gallery-desc">Handcrafted gourmet appetizers, exotic fusion canapés, and fresh organic salads.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="catering">
+            <img src="images/catering-service.jpg" alt="Fine Hospitality &amp; Royal Feast Service" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-step-badge">Hospitality &bull; Catering</span>
+              <h3 class="gallery-title">Fine Hospitality &amp; Royal Feast Service</h3>
+              <p class="gallery-desc">Impeccable white-glove service, curated drink pairing, and signature mithai dessert tables.</p>
+              <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+      <div class="lightbox-close">&times;</div>
+      <div class="lightbox-prev"><i class="fa-solid fa-chevron-left"></i></div>
+      <div class="lightbox-next"><i class="fa-solid fa-chevron-right"></i></div>
+      <div class="lightbox-content">
+        <img src="" alt="Enlarged Wedding Photo" class="lightbox-img">
+        <div class="lightbox-caption">
+          <h4 class="lightbox-title"></h4>
+          <p class="lightbox-desc"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIDEO SHOWCASE SECTION -->
+    <section class="section-padding video-section" style="background: linear-gradient(180deg, var(--bg-cream) 0%, var(--bg-peach-light) 100%);">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag gold-tag">Cinematic Memories</span>
+          <h2 class="section-title">Watch Our Celebrations</h2>
+          <p class="section-subtitle">
+            Experience the joy, the music, the tears of happiness, and the grandeur through our high-definition celebration highlights.
+          </p>
+        </div>
+
+        <div class="video-grid">
+          <div class="video-card">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Royal Wedding Video" class="video-thumb">
+            <div class="video-overlay">
+              <span class="video-tag">Film 01 &bull; Royal Wedding</span>
+              <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+              <div class="video-info">
+                <h4>Udaipur Palace Wedding Film</h4>
+                <p>A 3-day royal extravaganza on Lake Pichola with 400 global guests.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-card">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Sangeet Night Video" class="video-thumb">
+            <div class="video-overlay">
+              <span class="video-tag">Film 02 &bull; Sangeet Night</span>
+              <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+              <div class="video-info">
+                <h4>Bollywood Sangeet Night</h4>
+                <p>Celebrity artist performances, fireworks, and non-stop dancing in Jaipur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-card">
+            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80" alt="Mandap Decor Video" class="video-thumb">
+            <div class="video-overlay">
+              <span class="video-tag">Film 03 &bull; Decor Reveal</span>
+              <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+              <div class="video-info">
+                <h4>Floating Floral Mandap Reveal</h4>
+                <p>Time-lapse transformation of an open-air amphitheater into a floral wonderland.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Modal Player -->
+    <div class="video-modal" id="videoModal">
+      <div class="lightbox-close video-modal-close">&times;</div>
+      <div class="video-modal-wrap">
+        <div class="video-player-container" style="width: 100%; height: 100%;"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="curve-divider curve-top">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C300,80 600,0 900,70 L1200,20 L1200,120 L0,120 Z" fill="#FAF4ED"></path>
+      </svg>
+    </div>
+
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo">
+        <img src="images/riwaayat-crest.png" alt="Riwaayat Events &amp; Weddings" class="brand-emblem-img">
+        <div class="brand-text">
+          <span class="brand-name">RIWAAYAT</span>
+          <span class="brand-sub">EVENTS &bull; WEDDINGS</span>
+        </div>
+      </a>
+        <p>"Creating beautiful celebrations, one unforgettable moment at a time."</p>
+        <p style="font-size: 0.88rem; color: rgba(255, 255, 255, 0.65);">
+          India's leading luxury wedding planning &amp; event production agency specializing in bespoke destination weddings across Rajasthan, Goa, and world-class luxury ballrooms.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore Pages</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-angle-right"></i> Our Services</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-angle-right"></i> Curated Packages</a></li>
+          <li><a href="events.html"><i class="fa-solid fa-angle-right"></i> Celebration Portfolio</a></li>
+          <li><a href="gallery.html"><i class="fa-solid fa-angle-right"></i> Event Gallery</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i> Contact Studio</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Signature Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#mandap"><i class="fa-solid fa-angle-right"></i> Royal Mandap Decor</a></li>
+          <li><a href="services.html#sangeet"><i class="fa-solid fa-angle-right"></i> Sangeet Production</a></li>
+          <li><a href="services.html#haldi"><i class="fa-solid fa-angle-right"></i> Haldi &amp; Mehndi Setup</a></li>
+          <li><a href="services.html#planning"><i class="fa-solid fa-angle-right"></i> Destination Weddings</a></li>
+          <li><a href="services.html#catering"><i class="fa-solid fa-angle-right"></i> Gourmet Catering</a></li>
+          <li><a href="services.html#photo"><i class="fa-solid fa-angle-right"></i> 4K Wedding Cinema</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-newsletter">
+        <h4>Wedding Inspiration</h4>
+        <p>Subscribe for our annual wedding trend forecasts, palatial venue guides, and styling inspirations.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter">
+          <button type="submit" class="btn-pill btn-primary"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div style="margin-top: 24px;">
+          <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="btn-pill btn-whatsapp" style="width: 100%; font-size: 0.9rem;">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Riwaayat Events & Weddings. All Rights Reserved. Crafted with elegance and devotion for unforgettable celebrations.</p>
+    </div>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="https://api.whatsapp.com/send?phone=919876543210" target="_blank" class="float-whatsapp-btn" title="Chat with us on WhatsApp" aria-label="WhatsApp Chat"><i class="fa-brands fa-whatsapp"></i></a>
+    <button class="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-chevron-up"></i></button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
